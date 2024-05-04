@@ -36,15 +36,19 @@ public static class ArraysTester {
     /// <returns>array of doubles that are the multiples of the supplied number</returns>
     private static double[] MultiplesOf(double number, int length)
     {
-        int i = 0;
-        double new_value = 0.00;
+        int i;
+        double new_value;
         // TODO Problem 1 Start (don't forget to fill out the 01-prove-response.docx)
-        while (i < length)
+        for (i = 1; i < length; i++)
         {   
-            i++;
-            return[i * number];// replace this return statement with your own
+            number = 7;
+            length = 5;
+            new_value = i * number;
+            Console.WriteLine(i);
+            Console.WriteLine(new_value);
+            return[new_value];// replace this return statement with your own
         }
-        retirn
+        return new double[0];
         
         
     }
